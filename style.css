@@ -7,6 +7,12 @@
 html {
     font-family: 'Roboto', sans-serif;
 }
+h1 {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
 
 .header {
     background: #1f2937;
@@ -20,7 +26,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 60px 30px;
+    padding: 80px 30px;
     gap: 50px;
     color: #E5E7Eb;
     font-size: 18px;
