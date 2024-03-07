@@ -149,7 +149,7 @@ a{
 }
 
 .thor-author {
-    width: 650px;
+    width: 500px;
     align-self: flex-end;
     font-size: 25px;
 }
@@ -158,8 +158,58 @@ a{
 
 /* CALL TO ACTION SECTION */
 
+.call-to-action {
+    color: #F9FAF8;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
 
+.time-to-call {
+    display: flex;
+    align-items: center;
+    background: #3882F6;
+    width: 1000px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.left-desc > p {
+    font-size: 18px;
+}
+
+.left-desc {
+    margin: 20px 20px;
+}
+
+.right-btn {
+    
+}
+
+.sign-btn {
+    margin-left: 200px;
+    align-self: center;
+    font-weight: bold;
+    background: #3882F6;
+    color: #F9FAF8;
+    height: 50px;
+    width: 140px;
+    border-color: #F9FAF8;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    font-size: 18px;
+    font-weight: bold;
+}
 /* CALL TO ACTION FINISH */
 
 /* FOOTER */
+.footer {
+    background: #1f2937;
+    color: #E5E7Eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
 /* FOOTER FINISH */
