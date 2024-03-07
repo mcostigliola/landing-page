@@ -4,16 +4,22 @@
      /* border: 1px solid white; */
 }
 
+body {
+    margin: 0px;
+}
+
 html {
     font-family: 'Roboto', sans-serif;
 }
 h1 {
-    margin: 0;
+    margin: 10px;
+    font-size: 48px;
 }
 p {
-    margin: 0;
+    margin: 5px;
 }
 
+/* THIS IS THE HEADER AND SUBHEADER SECTION */
 .header {
     background: #1f2937;
     display: flex;
@@ -26,7 +32,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 80px 30px;
+    padding: 120px 30px;
     gap: 50px;
     color: #E5E7Eb;
     font-size: 18px;
@@ -37,6 +43,9 @@ p {
 }
 
 #signup-btn {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
     background: #3882F6;
     color: #F9FAF8;
     height: 50px;
@@ -51,7 +60,7 @@ p {
 
 .image-placeholder {
     width: 500px;
-    height: 200px;
+    height: 250px;
     background: grey;
     color: #F9FAF8;
     margin-right: 200px;
@@ -69,8 +78,8 @@ p {
 #header-link > ul{
     display: flex;
     list-style: none;
-   margin-right: 230px;
-   gap: 10px;
+    margin-right: 230px;
+    gap: 10px;
 }
 
 a{
@@ -78,3 +87,40 @@ a{
     font-size: 18px;
     text-decoration: none;
 }
+
+/* HEADER AND SUBHEADER SECTION FINISH */
+
+/* RANDOM INFO SECTION */
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-random-info {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    font-size: 25px;
+}
+
+.random-info-images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 150px;
+}
+
+.image-container {
+    width: 150px;
+    height: 150px;
+}
+
+.desc-image {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+/* RANDOM INFO SECTION FINISH */
