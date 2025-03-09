@@ -66,3 +66,23 @@ button {
     width: 400px;
     height: 300px;
 }
+
+.container-info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.square-rounded {
+    border: 1px solid blue;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+}
+
+.square {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 30px;
+}
